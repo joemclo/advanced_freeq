@@ -1,9 +1,7 @@
- 
-
- 
-
 1
 
+ 
+ 
 IT-SC book: Core Python Programming 
 
 Core Python Programming 
@@ -13,26 +11,21 @@ Publisher: Prentice Hall PTR
 First Edition December 14, 2000 
 ISBN: 0-13-026036-3, 816 pages  
 
-  
-
- 
-
- 
-
 2 
 
  
-
  
-
+ 
+ 
+  
 IT-SC book: Core Python Programming 
 
 Review 
 
 New to Python? This is the developer's guide to Python development! 
 
-Learn  the core features of Python as well as advanced  topics such as regular expressions, 
-multithreaded  programming,  Web/Internet  and  network  development,  GUI  development 
+Learn the core features of Python as well as advanced topics such as regular expressions, 
+multithreaded programming, Web/Internet and network development, GUI development 
 with Tk(inter) and more 
 
 Also includes features found in the new Python 1.6 and 2.0 releases 
@@ -40,20 +33,18 @@ Also includes features found in the new Python 1.6 and 2.0 releases
 CD-ROM:  Complete  Python  distributions  (source  code,  documentation,  and  various 
 binaries) plus all example scripts in the book 
 
-Python  is  an  Internet  and  systems  programming  language  that  is  soaring  in  popularity  in 
+Python is an Internet and systems programming language that is soaring in popularity in 
 today's  fast-paced  software  development  environment,  and  no  wonder:  it's  simple  (yet 
-robust),  object-oriented  (yet  can  be  used  as  a  procedural  language),  extensible,  scalable 
+robust), object-oriented (yet can be used as  a  procedural language),  extensible, scalable 
 and features an easy to learn syntax that is clear and concise. Python combines the power 
 of  a  compiled  object  language  like  Java  and  C++  with  the  ease  of  use  and  rapid 
-development  time of a scripting  language.  In  fact,  its syntax  is so easy  to understand  that 
-you  are more  likely  to  pick  it  up  faster  than  any  of  the  other  popular  scripting  languages 
+development time of a scripting language. In fact, its syntax is so easy to understand that 
+you are more likely to pick it up faster than any of the other popular scripting languages 
 in use today!  
-
- 
 
 In  Core  Python  Programming,  Internet  software  engineer  and  technical  trainer  Wesley 
 Chun  provides  intermediate  and  experienced  developers  all  they  need  to  know  to  learn 
-Python-fast. Like  all Core  Series  books, Core Python Programming  delivers  hundreds  of 
+Python-fast. Like all Core Series books, Core Python Programming delivers hundreds of 
 industrial-strength  code  snippets  and  examples,  all  targeted  at  professional  developers 
 who  want  to  leverage  their  existing  skills!  In  particular,  Core  Python  Programming 
 presents  numerous  interactive  examples  that  can  be  entered  into  the  Python  interpreter 
@@ -70,10 +61,10 @@ Standard data types, methods, and operators
 
 Loops and conditionals 
 
- 
-
 3
 
+ 
+ 
 IT-SC book: Core Python Programming 
 
 Files and Input/Output 
@@ -90,9 +81,10 @@ Callable Objects
 
 Extending Python 
 
+the  Python  standard  module 
+
 Coverage  of 
 library  and  client-server  application 
-the  Python  standard  module 
 development  includes  comprehensive  introductions  to  the  following  topics  in  Python 
 programming:  
 
@@ -112,10 +104,10 @@ Executing code in a restricted environment
 
 Inheritance, type emulation, operator overloading, and delegation in an OOP environment 
 
-Finally,  we  provide  an  introduction  to  the  new  features  introduced  in  Python  1.6.  These 
-include Unicode  string  support,  the  new  function  invocation  syntax which  lets  the  caller 
+Finally, we provide an introduction to the new features introduced in Python 1.6. These 
+include Unicode string support, the new function invocation syntax which lets the caller 
 provide  a  tuple  of  positional  arguments  and/or  a  dictionary  of  keyword  arguments,  and 
-the  new  string methods. We  also  provide  a  glimpse  into  features  that will  only  be  found 
+the new string methods. We also provide a glimpse into features that will only be found 
 in the newer 2.0 release.  
 
 Every Core Series book:  
@@ -131,7 +123,6 @@ PROVIDES objective, unbiased coverage of cutting-edge technologies-no
 4 
 
  
-
 IT-SC book: Core Python Programming 
 
 hype! 
@@ -153,12 +144,11 @@ Extensive code examples-including several complete sample applications
 CD-ROM includes complete Python source code and documentation distributions for 
 Unix/Linux along with binaries for Windows and Macintosh platforms plus source 
 code for all examples in the book. 
- 
-
- 
 
 5
 
+ 
+ 
 IT-SC book: Core Python Programming 
 
 Library of Congress Cataloging-in-Publication Date 
@@ -182,7 +172,6 @@ QA76.73.P98 C48 2000
 6 
 
  
-
 IT-SC book: Core Python Programming 
 
 Copyright Information 
@@ -235,10 +224,9 @@ To my parents,
 
 who taught me that everybody is different. 
 
- 
-
 7
 
+ 
 IT-SC book: Core Python Programming 
 
 And to my wife, 
@@ -248,11 +236,10 @@ who lives with someone who is different.
 8 
 
  
-
 IT-SC book: Core Python Programming 
 
 Table of Contents 
-  
+
 Welcome to Python! 
    Style:Technical, Yet Easy Reading 
    Author's Experience with Python 
@@ -282,11 +269,11 @@ Welcome to Python!
    Optional Sections 
    Conventions 
    Book Support 
- 
+
 Acknowledgements 
- 
+
 I: CORE PYTHON 
- 
+
 1. Welcome to Python! 
    What Is Python? 
    History of Python 
@@ -299,15 +286,19 @@ I: CORE PYTHON
    Comparing Python 
    JPython and Some Nomenclature 
    Exercises 
- 
+
 2. Getting Started 
    Program Output, the print Statement, and "Hello World!" 
    Program Input and the raw_input() Built-in Function 
 
- 
-
 9
 
+ 
+  
+ 
+ 
+ 
+ 
 IT-SC book: Core Python Programming 
 
    Comments 
@@ -327,7 +318,7 @@ I: CORE PYTHON
    Classes 
    Modules 
    Exercises 
- 
+
 3. Syntax and Style 
    Statements and Syntax 
    Variable Assignment 
@@ -336,7 +327,7 @@ I: CORE PYTHON
    Memory Management 
    First Python Application 
    Exercises 
- 
+
 4. Python Objects 
    Python Objects 
    Standard Types 
@@ -347,7 +338,7 @@ I: CORE PYTHON
    Categorizing the Standard Types 
    Unsupported Types 
    Exercises 
- 
+
 5. Numbers 
    Introduction to Numbers 
    Integers 
@@ -357,7 +348,7 @@ I: CORE PYTHON
    Built-in Functions 
    Related Modules 
    Exercises 
- 
+
 6. Sequences: Strings, Lists, and Tuples 
    Sequences 
    Strings 
@@ -367,5 +358,8 @@ I: CORE PYTHON
 10 
 
  
-
+ 
+ 
+ 
+ 
 
