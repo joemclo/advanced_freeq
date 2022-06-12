@@ -1,10 +1,15 @@
-## Download
+# About
 
+A simplified fork of https://github.com/xpgeng/advanced_freeq
+
+For a list of PDF files in the current directory, outputs word_occurrences.csv containing the word frequency occurrence of all words found in word_list.csv
+
+## Download
 
 Use Python 3.4+ to get the lastest version of advanced_freeq
 
 ```
-$ git clone https://github.com/scottming/advanced_freeq.git
+$ git clone https://github.com/joemclo/advanced_freeq.git
 ```
 
 Decorator packages are required for advanced_freeq.py.
@@ -36,47 +41,8 @@ $ sudo apt-get install calibre
 ## Usage
 
 ```
-$ ./advanced_freeq.py -h
-advanced_freeq
+$ ./advanced_freeq.py
 
-Usage:
-    ./advanced_freeq -t <txtname>  [-o <output>] [-s <mastered>]
-    ./advanced_freeq -p <pdfname>  [-o <output>] [-s <mastered>]
-    ./advanced_freeq -m <mobiname> [-o <output>] [-s <mastered>]
-    ./advanced_freeq -e <epubname> [-o <output>] [-s <mastered>]
-
-Examples:
-    ./advanced_freeq -i txtname.txt -o bookfreeq.csv
-    ./advanced_freeq -p txtname.pdf -o bookfreeq.csv
-    ./advanced_freeq -p txtname.pdf -o bookfreeq.csv -s mastered.csv
-
-Options:
-    -h --help           Show this screen.
-    -v --version        Show version
-    -t --txt            Input Text file
-    -p --pdf            Input PDF file
-    -m --mobi           Input mobi file
-    -e --epub           Input Epub file
-    -o --output         Output frequency file
-    -s --mastered       Mastered vocabularies file
-```
-
-`mastered.csv` is which vocalubries you have mastered, the default are the top 1000 of [COCA](http://corpus.byu.edu/coca/).
-
-```
-word_select
-
-Usage:
-    ./word_select.py -i <input> [-o=<number>] [-t <output>]
-
-Examples:
-    ./word_select.py -i tst.csv --over 5 --output ed.txt
-
-Options:
-    -i --input
-    -o --over=<number>  Over number [default: 5]
-    -t --output
-```
 
 ## Thanks to
 
@@ -85,5 +51,4 @@ Options:
 lemmas.txt is derrived from 2+2+3lem.txt in version 6 of 12dicts word
 list.
 
-
-
+```
